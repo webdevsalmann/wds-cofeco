@@ -6,14 +6,14 @@ export default function Footer() {
   return (
     <footer className="section border-t">
 
-      <div className="flex justify-around gap-6 flex-wrap">
+      <div className="flex sm:justify-around gap-6 flex-wrap">
         <div className="">
           <div className="font-semibold text-lg">Opening Hours</div>
           <ul className="mt-4 list-disc list-inside flex flex-col gap-2">
-            <li>Monday - Friday:
+            <li><span className="text-muted-foreground">Monday - Friday:</span>
               <div>~ 7:00 AM - 6:00 PM</div>
             </li>
-            <li>Saturday - Sunday:
+            <li><span className="text-muted-foreground">Saturday - Sunday:</span>
               <div>~ 8:00 AM - 5:00 PM</div>
             </li>
           </ul>
@@ -31,10 +31,10 @@ export default function Footer() {
         <div className="">
           <div className="font-semibold text-lg">Contact Info</div>
           <ul className="mt-4 list-disc list-inside flex flex-col gap-2">
-            <li>Email:
+            <li><span className="text-muted-foreground">Email:</span>
               <div>~ info@cofeco.com</div>
             </li>
-            <li>Phone:
+            <li><span className="text-muted-foreground">Phone:</span>
               <div>~ (123) 456-7890</div>
             </li>
           </ul>

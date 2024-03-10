@@ -9,7 +9,7 @@ export default function Hero() {
                     <h1>WELCOME TO COFECO</h1>
                     <p className="text-lg">where every cup tells a story. Experience the finest brews crafted with passion and precision.</p>
                     <div className="mt-6 flex-center gap-4">
-                        <Link className={buttonVariants({variant:"secondary"})} href="/reservation">Make Reservation</Link>
+                        <Link className={buttonVariants()} href="/reservation">Make Reservation</Link>
                         <Link className={buttonVariants({variant:"secondary"})} href="/menu">View Menu</Link>
                     </div>
             </div>

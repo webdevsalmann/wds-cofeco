@@ -15,7 +15,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="mt-12 p-4 bg-muted rounded ">
+                <div className="mt-12 p-4 bg-muted rounded-lg ">
                     <div className="grid gap-8 md:grid-cols-3">
                         <div className="p-4 flex justify-center flex-col md:col-span-2">
                             <h3>Our Team</h3>

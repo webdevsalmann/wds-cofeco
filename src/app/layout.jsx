@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={rubik.className} suppressHydrationWarning="true" suppressContentEditableWarning="true">
+      <body className={rubik.className} suppressHydrationWarning={true}>
         <ThemeProvider attribute="class"
           defaultTheme="system"
           enableSystem
