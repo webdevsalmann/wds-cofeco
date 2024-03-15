@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="font-semibold text-lg">Subscribe to Our Newsletter</div>
           <form className="mt-6 flex flex-col gap-2">
             <Input type="email" placeholder="Email" required/>
-            <Button variant="secondary">Subscribe</Button>
+            <Button >Subscribe</Button>
           </form>
         </div>
       </div>

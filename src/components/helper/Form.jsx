@@ -55,7 +55,7 @@ export default function Form() {
                     <span> At </span>
                 </Label>
                 <Select className="w-full">
-                    <SelectTrigger className="w-full hover:bg-muted">
+                    <SelectTrigger className="w-full hover:bg-accent">
                         <SelectValue placeholder="Select Timing" />
                     </SelectTrigger>
                     <SelectContent>
@@ -77,7 +77,7 @@ export default function Form() {
                     <span> For Total Of</span>
                 </Label>
                 <Select className="w-full">
-                    <SelectTrigger className="w-full hover:bg-muted">
+                    <SelectTrigger className="w-full hover:bg-accent">
                         <SelectValue placeholder="Select persons" />
                     </SelectTrigger>
                     <SelectContent>

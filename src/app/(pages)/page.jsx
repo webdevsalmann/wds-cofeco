@@ -1,7 +1,7 @@
 import About from "./About";
-import CTA from "./CTA";
 import Category from "./Category";
 import Hero from "./Hero";
+import Reservation from "./Reservation";
 import ShortGallery from "./ShortGallery";
 import ShortMenu from "./ShortMenu";
 import Testimonial from "./Testimonial";
@@ -15,7 +15,7 @@ export default function Home() {
       <About />
       <Testimonial />
       <ShortGallery />
-      <CTA />
+      <Reservation />
     </main>
   );
 }

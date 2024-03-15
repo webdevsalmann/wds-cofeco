@@ -21,7 +21,7 @@ const navLinks = [
     href: '/gallery'
   },
   {
-    title: 'reservation',
+    title: 'reserve',
     href: '/reservation'
   },
 ]

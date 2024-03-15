@@ -19,7 +19,7 @@ export default function About() {
                     <div className="grid gap-8 md:grid-cols-3">
                         <div className="p-4 flex justify-center flex-col md:col-span-2">
                             <h3>Our Team</h3>
-                            <p className="text-muted-foreground">Behind every cup of coffee at cofeco is a team of passionate individuals committed to delivering excellence. Meet our baristas, the heart and soul of our operation, who pour their expertise and creativity into every latte art masterpiece. Led by John Doe, our team is united by a shared love for coffee and a commitment to providing exceptional service. Together, we strive to create memorable experiences for each and every customer who walks through our doors.</p>
+                            <p className="text-muted-foreground">Behind every cup of coffee at cofeco is a team of passionate individuals committed to delivering excellence. Meet our baristas, the heart and soul of our operation, who pour their expertise and creativity into every latte art masterpiece. Led by Ravi Singh, our team is united by a shared love for coffee and a commitment to providing exceptional service. Together, we strive to create memorable experiences for each and every customer who walks through our doors.</p>
                         </div>
                         <div className="p-4 flex-center">
                             <Image src="/images/common/person.jpg" width={1600} height={900} alt="about" />

@@ -1,5 +1,7 @@
 import MenuItemCard from "@/components/ui/MenuItemCard";
+import { buttonVariants } from "@/components/ui/button";
 import { datas } from "@/lib/data";
+import Link from "next/link";
 
 export default function ShortMenu() {
     return (
@@ -41,6 +43,11 @@ export default function ShortMenu() {
                         ))}
                     </div>
                 </div>
+            </div>
+            <div className="mt-12 flex-center">
+                <Link className={buttonVariants({ variant: "secondary" })} href="/menu">
+                    View Full Menu
+                </Link>
             </div>
         </section>
     )
